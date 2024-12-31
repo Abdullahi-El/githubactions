@@ -25,10 +25,7 @@ jobs:
         with:
           node-version: '16'
 
-      # Install dependencies
-      - name: Install dependencies
-        run: npm install
-
+      
       # Run tests
       - name: Run tests
         run: npm test
